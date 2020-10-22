@@ -5,10 +5,6 @@ class Parent extends Component {
     constructor(props){
         super(props)
 
-        this.state = {
-            name : "anik"
-        }
-
         this.sayHi = this.sayHi.bind(this)
     }
 
