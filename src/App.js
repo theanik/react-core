@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import ComA from './components/ComA'
+import Reducer from './components/Reducer'
 function App() {
   return (
     <div className="App">
-      <ComA />
+        <Reducer/>
+      
     </div>
     
   );
